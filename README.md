@@ -1,12 +1,16 @@
-Clone the repository:
-Bash
+# 1. Clone your repository (Replace with your actual GitHub URL)
 git clone https://github.com/YourUsername/Your-Repo-Name.git
 cd Your-Repo-Name
 
-Install dependencies:
-Bash
-pip install -r requirements.txt
+# 2. Install the necessary Python libraries
+pip install tensorflow keras split-folders opencv-python numpy matplotlib
 
-Run the training script:
-Bash
+# 3. Download the dataset directly from Kaggle
+# Dataset Link: https://www.kaggle.com/datasets/mdwaquarazam/agricultural-crops-image-classification
+kaggle datasets download -d mdwaquarazam/agricultural-crops-image-classification
+
+# 4. Unzip the downloaded dataset
+unzip agricultural-crops-image-classification.zip -d Agricultural-crops
+
+# 5. Run your training script
 python main.py
