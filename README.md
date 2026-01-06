@@ -8,6 +8,18 @@ This project uses a Convolutional Neural Network (CNN) to process visual data an
 
 This project is a deep learning application designed to identify 30 different types of agricultural crops using computer vision. By leveraging Transfer Learning with the ResNet50 architecture, the model can classify crop images with high accuracy, providing a foundation for automated crop monitoring and precision agriculture.
 
+🔍 Usage & Inference
+The model includes a prediction pipeline that:
+1.  **Standardizes** input images to 224x224.
+2.  **Preprocesses** pixels using the ResNet50 distribution requirements.
+3.  **Outputs** the predicted crop category along with a confidence percentage.
+
+To test a single image:
+Python
+prediction = predict_img('path_to_leaf.jpg', model)
+print(prediction) 
+# Output: "Coffee-plant (98.45%)"
+
 🧠 Model Architecture
 
 The system uses a state-of-the-art Convolutional Neural Network (CNN) pipeline:
