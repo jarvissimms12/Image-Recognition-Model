@@ -1,6 +1,6 @@
 # 1. Clone your repository (Replace with your actual GitHub URL)
 git clone https://github.com/jarvissimms12/Image-Recognition-Model.git
-cd Your-Repo-Name
+cd Image-Recognition-Model
 
 # 2. Install the necessary Python libraries
 pip install tensorflow keras split-folders opencv-python numpy matplotlib
