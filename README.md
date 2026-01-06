@@ -1,4 +1,4 @@
-# 1. Clone your repository (Replace with your actual GitHub URL)
+# 1. Clone the repository 
 git clone https://github.com/jarvissimms12/Image-Recognition-Model.git
 cd Image-Recognition-Model
 
